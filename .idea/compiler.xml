@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lx-system" />
+        <module name="lx-security" />
+        <module name="lx-common-core" />
+        <module name="lx-common-serialization" />
+        <module name="lx-boot" />
+        <module name="lx-common-mybatis" />
+        <module name="lx-log" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-admin" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
