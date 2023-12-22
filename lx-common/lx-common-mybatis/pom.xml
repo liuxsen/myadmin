@@ -6,9 +6,21 @@
     <parent>
         <artifactId>lx-common</artifactId>
         <version>${revision}</version>
-        <groupId>lx.admin</groupId>
+        <groupId>cn.admin.lx</groupId>
     </parent>
 
     <artifactId>lx-common-mybatis</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -8,7 +8,7 @@
     <parent>
         <artifactId>lx-admin</artifactId>
         <version>${revision}</version>
-        <groupId>lx.admin</groupId>
+        <groupId>cn.admin.lx</groupId>
     </parent>
     <modules>
         <module>lx-log</module>

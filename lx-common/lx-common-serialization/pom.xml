@@ -6,7 +6,7 @@
     <parent>
         <artifactId>lx-common</artifactId>
         <version>${revision}</version>
-        <groupId>lx.admin</groupId>
+        <groupId>cn.admin.lx</groupId>
     </parent>
 
     <artifactId>lx-common-serialization</artifactId>
